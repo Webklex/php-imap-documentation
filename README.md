@@ -1,6 +1,8 @@
 
 # PHP-IMAP Documentation
 
+[![Software License][ico-license]][link-license]
+
 
 ## Table of Contents
 - [Documentations](#documentations)
@@ -35,6 +37,8 @@ If you discover any security related issues, please email github@webklex.com ins
 ## License
 The MIT License (MIT). Please see [License File][link-license] for more information.
 
+
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 
 [link-license]: https://github.com/Webklex/php-imap-documentation/blob/master/LICENSE
 [link-contributors]: https://github.com/Webklex/php-imap-documentation/graphs/contributors
