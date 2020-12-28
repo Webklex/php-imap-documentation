@@ -67,7 +67,7 @@ $messages = $query->all()->limit($limit = 10, $page = 2)->get();
 
 
 ## Count the result
-Limit the result to a specific limit and / or page. This has a great positive effect on your execution time.
+Count the amount of available messages without fetching them.
 
 ```php
 /** @var \Webklex\PHPIMAP\Query\WhereQuery $query */
