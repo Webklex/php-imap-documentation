@@ -13,6 +13,25 @@ option is set to ST_MSGN) or providing a uid.
 $message = $query->getMessage($id = 1);
 ```
 
+## Get a specific message by its uid
+You can fetch a specific message by its uid even if you are having the fetch option set to ST_MSGN.
+
+```php
+/** @var \Webklex\PHPIMAP\Query\WhereQuery $query */
+/** @var \Webklex\PHPIMAP\Message $message */
+
+$message = $query->getMessageByUid($uid = 1);
+```
+
+## Get a specific message by its message number
+You can fetch a specific message by its message number even if you are having the fetch option set to ST_UID.
+
+```php
+/** @var \Webklex\PHPIMAP\Query\WhereQuery $query */
+/** @var \Webklex\PHPIMAP\Message $message */
+
+$message = $query->getMessageByMsgn($msgn = 1);
+```
 
 ## Get all messages
 Get a collection of all available messages.
