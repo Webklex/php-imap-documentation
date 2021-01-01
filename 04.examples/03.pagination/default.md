@@ -8,6 +8,10 @@ Assuming you obtained a new query instance and which to paginate the result.
 /** @var \Webklex\PHPIMAP\Support\MessageCollection $messages */
 /** @var \Illuminate\Pagination\LengthAwarePaginator $paginator */
 
+/** @var integer $per_page Results you which to receive per page */
+/** @var integer $page The current page you are on (e.g. 0, 1, 2, ...) use `null` to enable auto mode */
+/** @var string $page_name The page name / uri parameter used for the generated links and the auto mode */
+
 $paginator = $messages->paginate($per_page = 5, $page = null, $page_name = 'imap_page');
 ```
 

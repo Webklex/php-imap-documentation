@@ -34,7 +34,6 @@ Property: accounts
 Value:    List of predefined accounts
 ```
 
-
 ## Advanced fetching configuration
 Contains a list of all available and therefor predefined advanced fetching options you might want to use within your application.
 Please take a look at the [advanced configuration](../advanced) section for more detail.

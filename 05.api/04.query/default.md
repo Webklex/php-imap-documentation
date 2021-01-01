@@ -83,6 +83,8 @@ Limit the result to a specific limit and / or page. This has a great positive ef
 
 $messages = $query->all()->limit($limit = 10, $page = 2)->get();
 ```
+In this case you would limit the result to 10, but since `$page` is set to 2, the first 10 results will be skipped and
+the next 10 will be returned.
 
 
 ## Count the result
