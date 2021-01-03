@@ -138,6 +138,18 @@ title: Table of Contents
     1. [Event](../api/event)
         1. Available events
         1. Custom event
+    1. [Attribute](../api/attribute)
+        1. Get String
+        1. Get Array
+        1. Check if value is contained
+        1. Attach value
+        1. Get first
+        1. Get last
+        1. Structure of an Attribute
+    1. [Address](../api/address)
+        1. Get String
+        1. Get Array
+        1. Structure of an Address
 1. Frameworks
     1. Laravel
         1. [Installation](../frameworks/laravel/installation)
