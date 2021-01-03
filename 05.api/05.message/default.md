@@ -214,4 +214,4 @@ $subject = $message->get("subject");
 $subject = $message->getAttributes()["subject"];
 ```
 
-Check out the [Attribute](../api/attribute) section to learn more about the attribute handling and available magic methods.
+Check out the [Attribute](../attribute) section to learn more about the attribute handling and available magic methods.

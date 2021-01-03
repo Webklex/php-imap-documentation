@@ -26,4 +26,4 @@ You can apply a regex on the raw header to search for any value / key you want.
 $boundary = $header->find("/boundary=\"?([^\"]*)[\";\s]/");
 ```
 
-Check out the [Attribute](../api/attribute) section to learn more about the attribute handling and available magic methods.
+Check out the [Attribute](../attribute) section to learn more about the attribute handling and available magic methods.
