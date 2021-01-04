@@ -35,8 +35,8 @@ reversible!
 /** @var \Webklex\PHPIMAP\Folder $folder */
 /** @var boolean $status */
 
-$status = $folder->move($new_folder = "INBOX.othername");
-$status = $folder->rename($new_folder = "INBOX.othername");
+$status = $folder->move($new_folder = "INBOX/othername");
+$status = $folder->rename($new_folder = "INBOX/othername");
 ```
 
 

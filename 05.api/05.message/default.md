@@ -90,7 +90,7 @@ back as response. In this case null is returned.
 /** @var \Webklex\PHPIMAP\Message $message */
 /** @var \Webklex\PHPIMAP\Message $copy */
 
-$copy = $message->copy($folder_path = "INBOX.name");
+$copy = $message->copy($folder_path = "INBOX/name");
 ```
 
 ## Move message
@@ -100,7 +100,7 @@ back as response. In this case null is returned.
 ```php
 /** @var \Webklex\PHPIMAP\Message $message */
 
-$message = $message->move($folder_path = "INBOX.name");
+$message = $message->move($folder_path = "INBOX/name");
 ```
 
 ## Delete message
