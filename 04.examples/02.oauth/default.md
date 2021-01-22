@@ -67,7 +67,7 @@ $client = $cm->make([
 _Credits: [@EthraZa](https://github.com/EthraZa)_
 
 ## Additional links:
-- https://github.com/MicrosoftDocs/office-developer-exchange-docs/issues/87
-- https://github.com/Webklex/php-imap/issues/81
-- https://github.com/MicrosoftDocs/office-developer-exchange-docs/issues/100
+- [github.com/MicrosoftDocs/office-developer-exchange-docs/issues/87](https://github.com/MicrosoftDocs/office-developer-exchange-docs/issues/87)
+- [github.com/Webklex/php-imap/issues/81](https://github.com/Webklex/php-imap/issues/81)
+- [github.com/MicrosoftDocs/office-developer-exchange-docs/issues/100](https://github.com/MicrosoftDocs/office-developer-exchange-docs/issues/100)
 
