@@ -140,6 +140,18 @@ $query->setFetchOrderDesc();
 $query->fetchOrderDesc();
 ```
 
+## Enable Soft fail
+Enable the "soft fail" mode if you want to ignore certain exception while fetching bulk messages.
+
+```php
+/** @var \Webklex\PHPIMAP\Query\WhereQuery $query */
+/** @var \Webklex\PHPIMAP\Support\MessageCollection $messages */
+/** @var [integer]\Exception $errors */
+
+$messages = $query->all()->softFail()->get();
+$errors = $query->errors();
+```
+
 
 ## Get all messages from a specific sender
 Get a collection of all available messages from a specific sender. In this case "example@domain.com".

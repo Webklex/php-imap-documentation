@@ -42,6 +42,13 @@ Property: fetch_flags
 Value:    true or false
 ```
 
+## Enable "Soft fail" mode
+Enable the "soft fail" mode if you want to ignore certain exception while fetching bulk messages.
+```text
+Property: soft_fail
+Value:    true or false
+```
+
 ## Message key identifier
 You can choose between these different options:
 
