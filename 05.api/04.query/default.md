@@ -43,6 +43,22 @@ Get a collection of all available messages.
 $messages = $query->all()->get();
 ```
 
+## Get all messages in chunks
+Fetch all available messages in chunks to reduce the request / response size per "transaction". This method may also
+lead to more request overall, so you might have to be careful with raitlimits.
+
+```php
+/** @var \Webklex\PHPIMAP\Query\WhereQuery $query */
+$query->all()->chunked(function($messages, $chunk){
+    /** @var \Webklex\PHPIMAP\Support\MessageCollection $messages */
+    dump("chunk #$chunk");
+    $messages->each(function($message){
+        /** @var \Webklex\PHPIMAP\Message $message */
+        dump($message->uid);
+    });
+}, $chunk_size = 10, $start_chunk = 1);
+```
+
 
 ## Flag all fetched messages as read
 You can automatically flag all fetched messages as "seen".
