@@ -53,13 +53,14 @@ $status = $folder->delete();
 
 ## Idle connection
 You can idle the connection and "listen" for new incoming messages.
+Set `$auto_reconnect` to `true` if you want to automatically reconnect if your connection broke.
 
 ```php
 /** @var \Webklex\PHPIMAP\Folder $folder */
 
 $folder->idle(function($message){
     echo "New message with the subject '".$message->subject."' received\n";
-}, $timeout = 1200);
+}, $timeout = 1200, $auto_reconnect = false);
 ```
 
 ## Get folder detail
