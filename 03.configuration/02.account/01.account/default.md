@@ -72,7 +72,7 @@ Set it to `oauth` if you want to authenticate using oAuth. You may provide your 
 An example is available here:  [oAuth using Google](../../../examples/oauth)
 ```text
 Property: authentication
-Value:    "outh" or null
+Value:    "oauth" or null
 ```
 
 ## Proxy
